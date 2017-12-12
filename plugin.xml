@@ -12,7 +12,7 @@
 	<engines><engine name="cordova" version=">=3.0.0" /></engines>
 	
 	<js-module src="www/scrypto.js" name="SCrypto">
-		<clobbers target="window.plugins.SCrypto" />
+		<clobbers target="cordova.SCrypto" />
 	</js-module>
 	
 	<platform name="android">
