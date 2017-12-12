@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" 
 		xmlns:android="http://schemas.android.com/apk/res/android" 
 		id="cordova-plugin-scrypto" 
-		version="0.1.10">
+		version="0.1.11">
 			
 	<name>cordova-plugin-scrypto</name>
 	<description>Get a SecretToken</description>
@@ -28,5 +28,9 @@
 		<source-file src="src/android/cpp/sha1.cpp" target-dir="cpp/scrypto" />
 		<source-file src="src/android/cpp/md5.h" target-dir="cpp/scrypto" />
 		<source-file src="src/android/cpp/md5.cpp" target-dir="cpp/scrypto" />
+		<source-file src="src/android/cpp/CMakeLists.txt" target-dir="cpp/scrypto" />
+		
+		<framework src="src/android/build.gradle" custom="true" type="gradleReference" />
+		
 	</platform>
 </plugin>
