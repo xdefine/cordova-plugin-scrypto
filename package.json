@@ -1,0 +1,22 @@
+{
+    "name": "cordova-plugin-scrypto",
+    "version": "0.1.9",
+    "description": "Cordova plugin to return the version number of the current app",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xdefine/cordova-plugin-scrypto.git"
+    },
+    "keywords": [
+        "cordova",
+        "ecosystem:cordova"
+    ],
+    "author": "whiteoctober",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/xdefine/cordova-plugin-scrypto/issues"
+    },
+    "homepage": "https://github.com/xdefine/cordova-plugin-scrypto#readme"
+}
