@@ -11,8 +11,8 @@
 	<keywords></keywords>
 	<engines><engine name="cordova" version=">=3.0.0" /></engines>
 	
-	<js-module src="www/appversion.js" name="AppVersion">
-		<clobbers target="window.plugins.SecretToken" />
+	<js-module src="www/scrypto.js" name="SCrypto">
+		<clobbers target="window.plugins.SCrypto" />
 	</js-module>
 	
 	<platform name="android">
