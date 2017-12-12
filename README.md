@@ -1,16 +1,15 @@
-appversion
+SecretToken
 ==================
 
-Get the app version of your code.
+Get the SecretToken.
 
 Usage / Function List
 ----------------------
 
 Get the query string array.
 ````
-window.plugins.AppVersion.getVersionCode ({
+window.plugins.SecretToken.getSecretToken ({
  success : function (result) {},
  error   : function (result) {}
 })
 ````
-# cordova-plugin-secrettoken
