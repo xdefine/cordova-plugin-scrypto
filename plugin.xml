@@ -17,7 +17,7 @@
 	
 	<platform name="android">
 		<config-file target="res/xml/config.xml" parent="/*">
-			<feature name="AppVersion">
+			<feature name="SCrypto">
 				<param name="android-package" value="net.xdefine.scrypto.SCrypto"/>
 			</feature>
 		</config-file>
