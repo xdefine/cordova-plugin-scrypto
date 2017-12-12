@@ -4,7 +4,7 @@
 		id="net.xdefine.secretToken" 
 		version="0.1.0">
 			
-	<name>Secret Token</name>
+	<name>cordova-plugin-scrypto</name>
 	<description>Get a SecretToken</description>
 	<author>Moon Suhan</author>
 	<license>MIT (see readme.md)</license>
@@ -21,7 +21,6 @@
 				<param name="android-package" value="net.xdefine.scrypto.SCrypto"/>
 			</feature>
 		</config-file>
-		<dependency id="android.support.v4" />
 		<source-file src="src/android/SCrypto.java" target-dir="src/net/xdefine/scrypto" />
 		<source-file src="src/android/SecurityHelper.java" target-dir="src/net/xdefine/scrypto" />
 		<source-file src="src/android/cpp/sha1.h" target-dir="cpp/scrypto" />
